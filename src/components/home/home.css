@@ -1,0 +1,40 @@
+.home {
+  height: 20rem;
+  color: white;
+  background-color: plum;
+  background-image: url("../../assets/backgroundHome.jpeg");
+  padding-left: 14%;
+  padding-top: 4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+.home h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-right: 60%;
+  margin-bottom: 1rem;
+}
+.home h5 {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-right: 60%;
+  margin-bottom: 1rem;
+}
+.home-btn {
+  background-color: #057bf0da !important;
+  color: white !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+  padding: .5rem 1.5rem !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+}
+.home-btn:hover {
+    background-color: #003b95 !important;
+    
+  }

@@ -1,0 +1,30 @@
+.contact {
+  background-color: #00224f;
+  height: 15rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 3.5rem;
+  color: wheat;
+}
+.contact h2 {
+  margin-bottom: 10px;
+}
+.contact p {
+    opacity: .8;
+  }
+.contact div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact div input {
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  font-weight: 400;
+  width: 25%;
+}
+.subcribe-btn {
+  padding: 0.5rem 1rem !important;
+  border-radius: 0 5px 5px 0 !important;
+}

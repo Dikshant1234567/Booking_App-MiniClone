@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #003b95;
+  height: max-content;
+  color: white;
+}
+.navbar-conatiner {
+  max-width: 1024px;
+  margin: auto;
+  display: block;
+}
+.navbar-conatiner h1 {
+  padding: 1rem 0;
+  cursor: pointer;
+  width: max-content;
+}
+.navbar-conatiner nav {
+  padding: 1rem 0;
+}
+.navbar-conatiner nav ul {
+  display: flex;
+  position: relative;
+  transition: all .1s ease;
+}
+.navbar-conatiner nav ul li {
+  margin-right: 1rem;
+}
+.nav-button {
+  font-size: 14px !important;
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 999px !important;
+  padding: 8px 26px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 1px !important;
+}
+.nav-icon{
+    font-size: 22px !important;
+    padding-left: 2px;
+}
+.ham-menu {
+  display: none !important;
+  color: white;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  position: absolute;
+  top: 1.8rem;
+  right: 2rem;
+  cursor: pointer;
+}
+.closeMenu{
+  display: none;
+  color: white;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  position: fixed;
+  top: 1.8rem;
+  left: 2rem;
+  cursor: pointer;
+  z-index: 9999;
+}
+.activeMenu{
+   top: 0% !important;
+   transition: all .1s ease;
+   right: 0;
+   position: fixed !important;
+}

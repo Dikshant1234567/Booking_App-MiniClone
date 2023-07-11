@@ -1,0 +1,64 @@
+
+@media (700px<= width<= 1024px) {
+    .navbar-conatiner {
+        padding: 5px 1.5rem;
+    }
+    .home {
+        height: 22rem;
+        padding-top: 3rem;
+    }
+    .home h1 {
+        font-size: 30px;
+        margin-right: 55%;
+        margin-bottom: 2rem;
+    }
+    .home h5 {
+        margin-right: 55%;
+        margin-bottom: 2rem;
+    }
+    .trendingDest {
+        padding: 2rem;
+    }
+    .explore {
+        padding: 2rem;
+    }
+    .property {
+        padding: 2rem;
+    }
+    .contact div input {
+        width: 50%;
+    }
+    .hotels {
+        padding: 1rem;
+    }
+    .hotel-container {
+        margin: 1.5rem;
+    }
+    .rating {
+        margin: 1rem 0rem;
+    }
+    .booking {
+        padding: 1.5rem;
+    }
+    .confirm-container img {
+        height: auto;
+        margin-right: 2rem;
+        width: 50%;
+    }
+    .room-des{
+        width: 45%;
+    }
+    .room-des h1 {
+        font-style: 40px !important;
+        font-weight: 600;
+        padding: .5rem 0;
+        color: red;
+    }
+    .room-des h5 {
+        padding: 0;
+        margin-top: 5px;
+    }
+    .book-btn {
+        margin-left: 0rem !important;
+    }
+}

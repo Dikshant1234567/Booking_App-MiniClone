@@ -1,0 +1,58 @@
+
+.booking{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.confirm-container{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.1rem;
+}
+.confirm-container img{
+    height: 22rem;
+    margin-right: 2rem;
+}
+.room-des h1 {
+    font-style: 40px !important;
+    font-weight: 600;
+    padding: 1rem;
+    color: red;
+}
+.room-des h5 {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .6;
+    padding: 1rem;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.book-btn{
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+}
+.rating {
+    margin: 1rem 1rem;
+    text-align: start;
+    display: flex;
+    align-items: center;
+  }
+  .rating label {
+    font-size: 20px;
+    font-weight: 500;
+    color: goldenrod;
+  }
+  .rating span {
+    display: inline;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .rating span svg {
+    color: yellow;
+  }
+  .close-btn{
+    margin: 0px 10px !important;
+  }

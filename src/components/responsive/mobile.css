@@ -1,0 +1,172 @@
+@media (max-width: 700px) {
+  .navbar {
+    background-color: #003b95;
+    height: 5rem;
+    color: white;
+  }
+  .ham-menu{
+    display: block !important;
+  }
+  .navbar-conatiner nav ul {
+    display: block;
+    position: absolute;
+    background: #003b95;
+    width: 100%;
+    top: -100%;
+    text-align: center;
+    height: 100vh;
+    z-index: 999;
+    scroll-behavior: smooth;
+  }
+  .navbar-conatiner nav ul li {
+    margin: 3rem 0;
+  }
+  .navbar-conatiner h1 {
+    padding: 1.8rem 1rem;
+    font-size: 22px;
+  }
+  .home {
+    padding-top: 1rem;
+    overflow-x: hidden;
+  }
+  .home h1 {
+    font-size: 25px;
+    margin-right: 0%;
+  }
+  .home h5 {
+    font-size: 18px;
+    margin-right: 0%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .trendingDest {
+    padding: 1rem;
+  }
+  .container {
+    display: block;
+  }
+  .container1 div {
+    width: 100%;
+  }
+  .container div {
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+  .container2 div {
+    width: 100%;
+  }
+  .explore {
+    padding: 1rem;
+  }
+  .carsouel-box h4 {
+    font-size: 13px;
+  }
+  .carsouel-box img {
+    border-radius: 8px;
+    background-size: cover;
+  }
+  .property {
+    padding: 1rem;
+  }
+  .property h1 {
+    font-size: 22px;
+  }
+  .property-box img {
+    border-radius: 8px;
+  }
+  .property-box h4 {
+    font-size: 18px;
+  }
+  .property-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .contact {
+    height: max-content;
+    text-align: start;
+    padding: 2rem;
+    color: wheat;
+  }
+  .contact h2 {
+    font-size: 25px;
+  }
+  .contact div {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .contact div input {
+    padding: 0.7rem 1rem;
+    font-size: 12px;
+    font-weight: 400;
+    width: 75%;
+  }
+  footer {
+    height: max-content;
+  }
+  footer h1 {
+    font-size: 22px;
+  }
+  #modal-modal-title,
+  #modal-modal-description {
+    margin: 0 1.5rem;
+    font-size: 18px;
+  }
+  .hotels {
+    padding: 1rem;
+  }
+  .hotel-container {
+    display: block;
+    margin-top: 1rem;
+  }
+  .hotel-container img {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .hotel-info {
+    width: 100%;
+  }
+  .rating {
+    margin: 1rem 0;
+  }
+  .book-btn {
+    margin-left: 0rem !important;
+  }
+  .booking {
+    padding: 1rem;
+  }
+  .confirm-container {
+    display: block;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+  .confirm-container img {
+    height: auto;
+    margin-right: 0rem;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .room-des h1 {
+    font-style: 22px !important;
+    font-weight: 500;
+    padding: 1rem 0;
+  }
+  .room-des h5 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+    padding: 1rem 0;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+  }
+  .rating label {
+    font-size: 18px;
+  }
+  .close-btn {
+    margin: 10px 1.5rem !important;
+  }
+}

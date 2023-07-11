@@ -1,0 +1,30 @@
+.explore{
+    max-width: 1024px;
+    margin: auto;
+}
+.explore h1{
+    padding: 1rem 0;
+}
+.explore p{
+    padding: 5px 0;
+}
+
+.carsouel-box{
+    margin: .5rem;
+    position: relative;
+    cursor: pointer;
+}
+.carsouel-box h4{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    bottom: 1rem;
+    left: 5px;
+    color: white;
+    /* box-shadow: 10px 5px 15px black; */
+}
+.carsouel-box img{
+width: 100%;
+border-radius: 10px;
+}

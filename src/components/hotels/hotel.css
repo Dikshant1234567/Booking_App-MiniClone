@@ -1,0 +1,47 @@
+.hotels {
+  max-width: 1024px;
+  margin: 0.5rem;
+  margin: auto;
+}
+.hotel-container {
+  display: flex;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid lightgray;
+}
+.hotel-container img {
+  border-radius: 15px;
+  margin-right: 1rem;
+  height: 180px;
+}
+.hotel-info {
+  width: 60%;
+}
+.hotel-info h1 {
+  color: blue;
+  margin: 1rem 0rem;
+  letter-spacing: -1px;
+}
+
+.book-btn {
+  margin-left: 4%;
+}
+.rating {
+  margin: 1rem 0;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.rating label {
+  font-size: 18px;
+  font-weight: 500;
+  color: goldenrod;
+}
+.rating span {
+  display: inline;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.rating span svg {
+  color: yellow;
+}
